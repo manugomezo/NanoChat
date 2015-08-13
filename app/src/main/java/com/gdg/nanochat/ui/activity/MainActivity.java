@@ -57,7 +57,7 @@ public class MainActivity
         //Allows Firebase client to keep its context
         Firebase.setAndroidContext( this );
 
-        firebaseRef = new Firebase( "https://nanochat-gdg.firebaseio.com/" );
+        firebaseRef = new Firebase( "https://manugomezo-nanochat.firebaseio.com/" );
 
         firebaseRef.addAuthStateListener( new Firebase.AuthStateListener()
         {
